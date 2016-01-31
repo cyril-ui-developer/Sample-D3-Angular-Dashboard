@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sample D3/Angular Dashboard || Welcome</title>
+     <!-- <base href="/">-->
+    <!-- Bootstrap -->
+        <link rel="stylesheet"href="css/bootstrap.css" >
+        <link rel="stylesheet" href="css/main.css" >
+        <link rel="stylesheet" href="fonts-awesome/css/font-awesome.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <meta name="description" content="Tours.">
+        <meta name="keywords" content="Tours">
+
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body ng-app="SampleD3App">
+     
+    <div ng-include='"templates/header.html"'></div>
+    <div ng-view></div>
+    <div ng-include='"templates/footer.html"'></div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+      
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendor/respond.min.js"></script>
+	<script src="js/vendor/angular.min.js"></script>
+    <script src="js/vendor/angular-route.min.js"></script>
+    <script src="js/vendor/angular-mocks.js"></script>
+    <script src="js/vendor/underscore-min.js"></script>
+	<script src="js/mock-api.js"></script>
+	<script src="js/app.js"></script>
+      <script src="js/directives.js"></script>
+      <script src="js/controllers.js"></script>
+   
+   
+   
+  </body>
+</html>

@@ -1,0 +1,62 @@
+{"productType" :[
+        {
+            "name": "Canny",
+            "count": 1000
+        },
+        {
+            "name": "Banny",
+            "count": 3000
+        },
+        {
+            "name": "Danny",
+            "count": 2000
+        }
+    ],
+ 
+ "productSales":[
+        {
+            "salesDate": "04/02/2015",
+            "amount": 300
+        },
+        {
+            "salesDate": "04/03/2015",
+            "amount": 400
+        },
+        
+        {
+            "salesDate": "04/9/2015",
+            "amount": 700
+        },
+        {
+            "salesDate": "04/12/2015",
+            "amount": 500
+        },
+        {
+            "salesDate": "04/13/2015",
+            "amount": 300
+        },
+        {
+            "salesDate": "04/15/2015",
+            "amount": 300
+        },
+       
+        {
+            "salesDate": "04/20/2015",
+            "amount": 350
+        },
+        {
+            "salesDate": "04/21/2015",
+            "amount": 560
+        },
+       
+        {
+            "salesDate": "04/26/2015",
+            "amount": 300
+        },
+        {
+            "salesDate": "04/28/2015",
+            "amount": 390
+        }
+    ]
+
+}
